@@ -6,7 +6,7 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),macanc)
 
-$(call add-radio-file-sha1-checked,radio/abl.img,44091801cfed97ba70fff2d5805dec12cbce449b)
+$(call add-radio-file-sha1-checked,radio/abl.img,e51eb157f31e7f218904b512e4335215213482fc)
 $(call add-radio-file-sha1-checked,radio/aop.img,efe4a6f86929c52020cfa2b16e50db5f9fffa0ad)
 $(call add-radio-file-sha1-checked,radio/aop_config.img,fd86c245e1ee07c1caa23451667fc0c41b8d3b65)
 $(call add-radio-file-sha1-checked,radio/bluetooth.img,3859e82933a3a3453c1baaa2217319de0595f60e)
